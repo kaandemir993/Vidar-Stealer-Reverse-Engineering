@@ -53,7 +53,7 @@ Using WinDbg, we can observe the injected shellcode inside the Explorer process.
 
 The image below is a direct WinDbg dump of the shellcode found inside the `PAGE_EXECUTE_READWRITE` region of Explorer.exe. The disassembly reveals typical shellcode characteristics: prologue instructions (`push`, `mov`), API call patterns (`call`, `jmp`), and obfuscated data blocks.
 
-<img src="images/explorer shellcode.jpeg" alt="explorer Shellcode" width="200">
+<img src="images/explorer shellcode.jpeg" alt="explorer Shellcode" width="500">
 
 
 ## 3. Microsoft Copilot – A New Target for Process Injection
